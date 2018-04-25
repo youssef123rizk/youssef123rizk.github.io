@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<!-- this is a declaration telling which html version I am using -->
+<html lang="en-ca">
+<head>
+	<!-- title of the website -->
+	<title>Contact Us - Strange Animal Exhibit</title>
+	<!-- meta elements are typically used to specify page description, keywords..etc -->
+  <meta charset="UTF-8"> 
+    <meta name="description" content="exhibition website for strange animals">
+    <meta name="keywords" content="strange, animals, exhibition">
+    <meta name="author" content="Olga Makhoul">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/validation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body> 
+  <!-- Body element contains all the contents of an HTML document -->
+  <!-- top navigation bar -->
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="#Aboutus">About Us</a>
+    <a href="#Visit">Visit</a>
+  <a href="contact.html">Contact</a> 
+    <a href="https://Instagram.com/strange_animal_exhibit" title="Instagram" target="blank"><img class="social" style="position:absolute; right:30px" src="Images/001-instagram.jpg" alt="Instagram"></a>  
+    <a href="https://twitter.com/strange_animal_exhibit" title= Twitter target="blank"><img class="social" style="position:absolute; right:80px" src="Images/003-twitter.jpg" alt="Twitter"></a>
+  <a href="https://Facebook.com/strange_animal_exhibit" title= Facebook target="blank"><img class="social" style="position:absolute; right:130px; background: white" src="Images/004-facebook.jpg" alt="Facebook"></a>
+  <span class="topnav-right">Follow Us</span>
+
+    </div>
+      <!--end of top naviation bar  -->
+<br>
+  <!-- logo-date-search -->
+  <div class="general-logo">
+    <header>
+      <div>
+        <img id="logo-left" src="Images/logo.jpg" alt="LOGO" width="300" height="220">
+        <p id= "date-middle">September 10-15</p>
+        
+
+
+        <form class="search-btn" action="#searchresults">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </header>
+  </div>
+  <!-- end of logo-date-search -->
+<button class="btn Schedule" title="Schedule">Schedule</button>
+<button class="btn Activities" title="Activities">Activities</button>
+<button class="btn Gallary" title="Gallary">Gallary</button>
+<button class="btn Tickets" title="Tickets">Tickets</button>
+<!-- main contents of the document -->
+
+<!-- Portfolio Gallery Grid -->
+ 
+<!-- MAIN (Center website) -->
+<div>
+  
+<h1 class="contact-page-title">Contact Us</h1>
+
+  <form class="radio">
+  <input type="radio" name="titles_prefixes" value="mr."> Mr.<br>
+  <input type="radio" name="titles_prefixes" value="mrs."> Mrs.<br>
+  <input type="radio" name="titles_prefixes" value="ms."> Ms.<br>
+  <input type="radio" name="titles_prefixes" value="miss"> Miss<br>
+
+</form>
+
+<div class="container">
+  <form name="Contact-US-Form">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Your Email..">
+      </div>
+    </div>
+
+      <div class="checkboxes">
+        <label for="subject">Tickets Enquiry</label>
+        <input type="checkbox">
+      <label for="subject">General Enquiry</label>
+      <input type="checkbox">
+    </div>
+
+    <div class="row top">
+      <div class="col-25">
+        <label for="subject">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Your Message.."></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+<aside class="aside-contact-us">
+  <h3>Address</h3>
+  <h4>1385 Woodroffe Ave, Nepean, ON K2G 1V8</h4>
+  <h3>Phone</h3>
+  <h4>613-727-4723</h4>
+  <h3>Email</h3>
+  <h4>info@strangeanimalexhibit.com</h4>
+</aside>
+
+</div>
+
+<div class="bottom">
+    <h2>FUN AND GAMES FOR THE WHOLE FAMILY !</h2>
+
+</div>
+
+<!-- the footer of the document -->
+<footer class="footer"> Copyright &copy; All Rights Reserved 2018. <br> Site Designed By OLGA MAKHOUL
+</footer>
+
+<!-- the end of footer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+<script type="text/javascript" src="scripts/validation.js"></script>
+
+
+</body>
+</html>
